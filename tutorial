@@ -1,0 +1,119 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial Familiar - Paso a Paso</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 leading-relaxed tracking-wide">
+
+  <!-- Hero -->
+  <section class="relative h-screen bg-cover bg-center text-white" style="background-image: url('https://img.freepik.com/foto-gratis/persona-dibujando-simbolos-que-salen-bombilla-encima-libro_1232-907.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">Tutorial Paso a Paso</h1>
+      <p class="text-xl md:text-2xl max-w-2xl font-medium">Ayuda con cariño y claridad a tus seres queridos a usar la tecnología.</p>
+    </div>
+  </section>
+
+  <!-- Objetivo -->
+  <section class="py-20 px-6 md:px-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-4 text-gray-800">🎯 Objetivo del tutorial</h2>
+        <p class="text-lg">Guiar paso a paso a un familiar con pocas habilidades digitales, usando un tono cálido, claro y respetuoso.</p>
+        <p class="mt-4 text-md text-gray-600">💡 Tu misión: que se sienta acompañado/a, sin miedo a equivocarse.</p>
+      </div>
+      <img src="https://img.freepik.com/foto-gratis/toque-mujer-chateando-telefono-inteligente_1150-4805.jpg" class="rounded-xl shadow-xl w-full" alt="WhatsApp en móvil">
+    </div>
+  </section>
+
+  <!-- Estructura Tutorial -->
+  <section class="py-20 px-6 md:px-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://img.freepik.com/foto-gratis/aula-virtual-espacio-estudio_23-2149178641.jpg" class="rounded-xl shadow-xl w-full md:order-2" alt="Estudio virtual">
+      <div>
+        <h2 class="text-4xl font-bold mb-6 text-gray-800">🧭 Estructura del tutorial</h2>
+        <h3 class="text-2xl font-semibold text-blue-700 mb-2">🟩 1. Inicio / Presentación</h3>
+        <ul class="list-disc pl-6 text-md mb-6 text-gray-700 space-y-2">
+          <li>Preséntate con cariño: “Hola, soy Lucía, y hoy te voy a enseñar a...”</li>
+          <li>Objetivo simple: “Vamos a aprender cómo mandar una foto por WhatsApp, paso a paso.”</li>
+          <li>Consejos: tono tranquilo, dirígete a alguien concreto.</li>
+        </ul>
+        <h3 class="text-2xl font-semibold text-yellow-600 mb-2">🟨 2. Paso a paso claro y visual</h3>
+        <ol class="list-decimal pl-6 text-md mb-6 text-gray-700 space-y-2">
+          <li>Busca el icono verde de WhatsApp y tócala una vez.</li>
+          <li>Elige el contacto, por ejemplo ‘Lucía Nieta’.</li>
+          <li>Toca el clip 📎 y selecciona ‘Galería’.</li>
+          <li>Elige la foto deseada, desliza si es necesario.</li>
+          <li>Toca el avioncito verde para enviarla. ¡Y ya está!</li>
+        </ol>
+        <h3 class="text-2xl font-semibold text-sky-700 mb-2">🟦 3. Cierre amigable</h3>
+        <ul class="list-disc pl-6 text-md text-gray-700 space-y-2">
+          <li>“¡Lo hiciste genial!”</li>
+          <li>“No pasa nada si te equivocas, puedes repetirlo.”</li>
+          <li>“Prueba tú ahora con otra foto, yo estaré aquí si necesitas ayuda.”</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recomendaciones técnicas -->
+  <section class="bg-gray-100 py-20 px-6 md:px-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6 text-gray-800">🎥 Recomendaciones técnicas para grabar</h2>
+        <ul class="list-disc pl-6 text-md space-y-2 text-gray-700">
+          <li><strong>✅ Usa luz natural o buena iluminación:</strong> evita sombras.</li>
+          <li><strong>✅ Graba en horizontal:</strong> se ve mejor en pantallas grandes.</li>
+          <li><strong>✅ Habla claro y despacio:</strong> sé natural, no leas un guion exacto.</li>
+          <li><strong>✅ No uses jerga:</strong> usa palabras como “foto”, “tocar”, “icono”.</li>
+        </ul>
+      </div>
+      <img src="https://img.freepik.com/foto-gratis/vlogger-tecnologico_23-2148161558.jpg" class="rounded-xl shadow-xl w-full" alt="Vlogger tecnológico">
+    </div>
+  </section>
+
+  <!-- Ideas personalización -->
+  <section class="py-16 px-6 md:px-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800">💡 Ideas para personalizar</h2>
+      <ul class="list-disc pl-6 text-left text-md text-gray-700 space-y-2">
+        <li>Usa frases familiares: “¿Ves este botón, el que siempre dices que se esconde?” 😊</li>
+        <li>Si cometes un error, no cortes: coméntalo con humor: “Uy, me equivoqué, esto también pasa… ¡y no pasa nada!”</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Formato + Envío -->
+  <section class="bg-gray-50 py-20 px-6 md:px-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl font-bold mb-4 text-gray-800">🧩 ¿Qué formato enviar?</h2>
+        <ul class="list-disc pl-6 text-md text-gray-700 space-y-2">
+          <li>🎥 Un vídeo grabado desde el móvil, mostrando los pasos.</li>
+          <li>Puede ser grabación de pantalla + voz o externa grabando el móvil.</li>
+          <li>Duración ideal: 1 a 3 minutos.</li>
+          <li>Formatos aceptados: MP4, MOV o enlace a Drive/WeTransfer.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-4 text-gray-800">📬 ¿Dónde enviarlo?</h2>
+        <p class="text-md">📩 Envía tu vídeo a: <a href="mailto:correo@pasoapaso.es" class="text-blue-600 underline">correo@pasoapaso.es</a></p>
+        <p class="text-md">🌐 O súbelo a: <a href="https://pasoapaso.es/tutoriales" class="text-blue-600 underline">pasoapaso.es/tutoriales</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p class="text-sm">&copy; 2025 Paso a Paso · Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
