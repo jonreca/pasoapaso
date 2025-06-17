@@ -1,0 +1,81 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paso@Paso - Aprende Tecnología con Cariño</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-[70vh] flex items-center justify-center px-4 md:px-8" style="background-image: url('https://img.freepik.com/foto-gratis/gente-usa-pocos-dispositivos-diferentes_1398-1447.jpg?t=st=1750161298~exp=1750164898~hmac=d8109924e797491d8d83fe5c0c72be2ef66a3b77b434ca747c5325f16efda747&w=1380');">
+      <div class="bg-white bg-opacity-90 p-6 md:p-10 rounded-xl shadow-xl max-w-2xl w-full text-center">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">Paso@Paso</h1>
+        <p class="text-base md:text-xl mb-6">Tu guía familiar para aprender tecnología de forma sencilla, visual y sin estrés.</p>
+       <div class="flex flex-col sm:flex-row gap-4 justify-center">
+  <a href="#contacto" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Únete a nosotros</a>
+  <a href="tutorial.html" class="bg-green-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-green-700 transition">Tutoriales</a>
+</div>
+
+      </div>
+    </section>
+
+    <!-- Descripción -->
+    <section class="py-20 px-6 md:px-10 max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">¿Por qué Paso@Paso?</h2>
+        <p class="text-lg mb-6 max-w-3xl mx-auto">En España, miles de personas mayores y adultos con baja alfabetización digital se enfrentan a un mundo cada vez más tecnológico que los excluye. Paso@Paso surge como una solución práctica, emocional y accesible para cerrar esa brecha digital desde el entorno familiar.</p>
+        <p class="text-lg max-w-3xl mx-auto">Mediante tutoriales personalizados y visuales creados por familiares, Paso@Paso ofrece una forma efectiva y cercana de enseñar habilidades digitales básicas, generando confianza, independencia y conexión intergeneracional.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">¿Qué es Paso@Paso?</h3>
+          <p class="text-lg mb-4">Es una plataforma donde hijos, nietos o cuidadores pueden crear guías paso a paso para enseñar a usar móviles, aplicaciones o realizar gestiones digitales de manera clara y sencilla.</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Interfaz intuitiva para familiares creadores de contenido.</li>
+            <li>Tutoriales visuales con capturas reales y texto personalizado.</li>
+            <li>Acceso fácil para el usuario final, sin necesidad de registrarse.</li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <img src="https://img.freepik.com/foto-gratis/elegante-pareja-ancianos-sentados-casa-usando-computadora-portatil_1157-31934.jpg" alt="Personas mayores aprendiendo" class="rounded-lg shadow-md w-full h-48 object-cover" />
+          <img src="https://img.freepik.com/foto-gratis/adulto-joven-ensenando-anciano-sobre-devicer-degital_23-2149212019.jpg" alt="Ayuda con tecnología" class="rounded-lg shadow-md w-full h-48 object-cover" />
+          <img src="https://img.freepik.com/foto-gratis/familia-feliz-disfruta-pocos-portatiles-varios_1398-1446.jpg" alt="Familia usando tecnología" class="rounded-lg shadow-md w-full h-48 object-cover" />
+          <img src="https://img.freepik.com/foto-gratis/adolescente-tiro-medio-hombre-laptop_23-2149272458.jpg?t=st=1750162465~exp=1750166065~hmac=1fbe8b8d20a3a0f848b886a4d8d83a4488ec9947cc96d61fa0c1316eeae2dc87&w=1380" alt="Adolescente usando portátil" class="rounded-lg shadow-md w-full h-48 object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto" class="bg-white py-16 px-6 md:px-10">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4 text-center">Contáctanos</h2>
+        <p class="text-center mb-8">¿Quieres más información o colaborar con Paso@Paso? ¡Escríbenos!</p>
+        <form action="https://formsubmit.co/jonreyes@outlook.com" method="POST" class="space-y-6 bg-gray-100 p-6 rounded-xl shadow-md">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+            <input type="text" name="name" id="name" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm p-2" />
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" name="email" id="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm p-2" />
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+            <textarea name="message" id="message" rows="4" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm p-2"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md text-lg hover:bg-blue-700 transition">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-6 text-center text-sm text-gray-600">
+      © 2025 Paso@Paso. Todos los derechos reservados.
+    </footer>
+  </body>
+</html>
